@@ -8,7 +8,8 @@ pipeline{
         stage('Build') {
             steps {
                 echo 'Building...'
-                sh 'npm install --force'
+                sh 'rm -r node_modules'
+                sh 'npm install'
             }
         }
         stage('Test') {
