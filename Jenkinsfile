@@ -8,7 +8,7 @@ pipeline{
         stage('Build') {
             steps {
                 echo 'Building...'
-                sh 'rm -r node_modules'
+                sh 'if [ -d "node_modules" ]; then rm -r node_modules; fi'
                 sh 'npm install'
             }
         }
