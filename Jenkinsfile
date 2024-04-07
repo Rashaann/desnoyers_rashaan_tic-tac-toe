@@ -30,7 +30,13 @@ pipeline{
         stage('Deploy / Deliver') {
             steps {
                 echo 'Deploying...'
+                sh 'npm run build'
             }
+                   post {
+                       always {
+                        archiveArtifacts artifacts: 'build/**/*.*', onlyIfSuccessful: true
+                       }
+                   }
         }
     }
 }
