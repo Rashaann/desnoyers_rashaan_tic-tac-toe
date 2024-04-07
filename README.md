@@ -1,7 +1,7 @@
 # Tic-Tac-Toe TP
 Le TP est à rendre au plus tard **lundi 8 avril 2024, minuit**, par mail en signalant votre nom, prénom et le lien du repository public sur lequel se trouve vos livrables, le mail d'envoi **et** l'historique des commits faisant foi.
 
-Il vous est possible de vous entre-aider mais votre rendu est **personnel** sauf mention contraire expresse pour les situations identifiées en amont!
+Il vous est possible de vous entre-aider mais votre rendu est **personnel** sauf mention contraire expresse pour les situations identifiées en amont.
 
 ## Instructions
 
