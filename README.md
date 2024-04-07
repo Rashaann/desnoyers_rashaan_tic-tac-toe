@@ -3,7 +3,7 @@ Le TP est à rendre au plus tard **lundi 8 avril 2024, minuit**, par mail en sig
 
 Il vous est possible de vous entre-aider mais votre rendu est **personnel** sauf mention contraire expresse pour les situations identifiées en amont.
 
-## Instructions
+## Instruction
 
 ### Préparer son environnement
 - A partir du docker-compose disponible sur le repository [docker-gitlab-jenkins](https://github.com/June-Ruth/docker-gitlab-jenkins)
